@@ -1,0 +1,27 @@
+@charset "utf-8" ;
+
+body, h1, h2, h3, h4, h5, h6, p, li, div, ul {
+margin: 0;
+padding: 0;
+
+}
+
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: green;
+}
+
+#wrapper {
+	width: 700px;
+	margin:10px auto;
+
+}
+
+#header {
+
+	width:700px;
+	background-color: #832020;
+	/** background:url(..images/header-bg.jpg); **/
+	text-align:center;
+}

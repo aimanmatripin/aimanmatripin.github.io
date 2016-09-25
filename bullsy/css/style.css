@@ -671,7 +671,9 @@
 }
 
 .f_navigation > p {
-    padding-left: 36px;
+    padding-left: 75px;
+    font-family: m300;
+    font-size: 13px;
 }
 
 .top_icon {

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Positioning Exersize - Delta 2</title>
+	<style type="text/css">
+
+		#container{
+			width:100%;
+		}	
+
+		#wrapper {
+			width: 900px;
+			margin: 0px auto;
+		}
+		#header {
+			margin: 0 auto;
+		}
+
+		#menu {
+			display: inline-block;
+			position: relative;
+			top: -44px;
+			left: 237px;
+		}
+
+		#menu .button {
+			display: inline-block;
+			width: 120px;
+			background: purple;
+			font-family: Georgia;
+			font-size: 20px;
+			line-height: 50px;
+			margin-left: 30px;
+			text-align: center;
+		}
+
+		#menu .button a {
+			color: white;
+			text-decoration: none;
+		}
+
+		#sidebar {
+			display: inline-block;
+			width: 300px;
+			background: aquamarine;
+			padding: 10px;
+			height: 600px;
+			margin-right:20px;
+		}
+
+		#content-area {
+			display: inline-block;
+			width: 536px;
+			background: #CDDC39;
+			padding: 10px;
+			height: 600px;
+			vertical-align: top;
+		}
+
+		#portfolio {
+			margin: 20px auto;
+			width:900px;
+			display:absolute;
+		}
+
+		#portfolio .block {
+			display: inline-block;
+			width: 205px;
+			height: 200px;
+			border: 2px solid black;
+			margin-right: 20px;
+			box-sizing:border-box;
+			position: relative;
+			left: 4px;
+		}
+
+		#block-1 { background:blue; }
+		#block-2 { background:red; }
+		#block-3 { background:yellow; }
+		#portfolio #block-4
+		{ 
+			background:green;
+			margin-right:0;
+		}
+
+		.bulat {
+			width: 20px;
+			height: 20px;
+			background: black;
+			border: 1px solid white;
+			border-radius: 10px;
+			position: relative;
+		}
+
+		.bulat-tl {
+			left: 190px;
+			top: -12px;
+		}
+		.bulat-br {
+		    bottom: -164px;
+		    right: 12px;
+		}
+
+		div#footer {
+		    width: 100%;
+		    height: 100px;
+		    background: grey;
+		    border: 4px dashed white;
+		    box-sizing: border-box;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="wrapper">
+			<div id="header"> <!-- Header Area -->
+				<img src="logo_delta.png" alt="logo">
+				<div id="menu">
+					<div id="menu-1" class="button"><a href="#">Home</a></div>
+					<div id="menu-2" class="button"><a href="#">Services</a></div>
+					<div id="menu-3" class="button"><a href="#">Contact</a></div>
+				</div>
+			</div>
+
+			<div id="content"><!-- Content Area -->
+				<div id="sidebar">
+					<h2>Ini Sidebar</h2>
+					<p>Lorem ipsum Est Duis eu nulla eu et quis fugiat et nostrud.</p>
+				</div>
+				<div id="content-area">
+					<h2>Ini Content Area</h2>
+					<p>Lorem ipsum Veniam aliqua Duis ea sunt est in sed laboris cillum occaecat amet commodo in id in exercitation ex ex aliqua aliqua enim dolor aute esse pariatur velit ullamco ut pariatur irure sint ut et culpa commodo minim.</p>
+					<p>Lorem ipsum Veniam aliqua Duis ea sunt est in sed laboris cillum occaecat amet commodo in id in exercitation ex ex aliqua aliqua enim dolor aute esse pariatur velit ullamco ut pariatur irure sint ut et culpa commodo minim.</p>
+				</div>
+			</div>
+			<div id="portfolio"><!-- Portfolio Area -->
+				<div id="block-1" class="block">
+					<div id="bulat-1" class="bulat bulat-tl"></div>
+					<div id="bulat-2" class="bulat bulat-br"></div>
+				</div>
+				<div id="block-2" class="block">
+					<div id="bulat-3" class="bulat bulat-tl"></div>
+					<div id="bulat-4" class="bulat bulat-br"></div>
+				</div>
+				<div id="block-3" class="block">
+					<div id="bulat-5" class="bulat bulat-tl"></div>
+					<div id="bulat-6" class="bulat bulat-br"></div>
+				</div>
+				<div id="block-4" class="block last">
+					<div id="bulat-7" class="bulat bulat-tl"></div>
+					<div id="bulat-8" class="bulat bulat-br"></div>
+				</div>
+			</div>
+			<div id="footer"></div>
+		</div>
+	</div>
+</body>
+</html>

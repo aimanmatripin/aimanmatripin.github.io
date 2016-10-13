@@ -228,7 +228,7 @@ input.radio-button {
 label {
     width: 116px;
     display: inline-block;
-    padding: 12px 0;
+    padding: 12px 0 0;
 }
 
 input {

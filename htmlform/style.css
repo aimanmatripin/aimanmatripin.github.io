@@ -249,3 +249,7 @@ label.right-form {
 input.right-form {
     width: initial;
 }
+
+input:last-child .right-form {
+	padding-bottom: 20px;
+}

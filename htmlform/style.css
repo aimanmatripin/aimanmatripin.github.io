@@ -262,6 +262,6 @@ textarea {
 .thank-you.box {
     position: absolute;
     bottom: 252px;
-    right: 4px;
+    right: -30px;
   
 }

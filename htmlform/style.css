@@ -225,3 +225,19 @@ input.radio-button {
     width: 40px;
 }
 
+label {
+    width: 116px;
+    display: inline-block;
+    padding: 12px 0;
+}
+
+input {
+    width: 250px;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 70px;
+    padding: 5px 0;
+    margin-right: 20px;
+}
+

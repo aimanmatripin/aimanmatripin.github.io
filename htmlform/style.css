@@ -241,3 +241,12 @@ input[type="submit"], input[type="reset"] {
     margin-right: 20px;
 }
 
+label.right-form {
+    width: initial;
+    padding: 0;
+}
+
+input.right-form {
+    width: initial;
+    padding: 0;
+}

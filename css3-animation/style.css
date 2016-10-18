@@ -422,4 +422,5 @@ video {
 .multi-col p {
     color: white;
     text-shadow: 0 0 6px black;
+    margin-top:0;
 }

@@ -1,1 +1,212 @@
-asdad
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test HTML Form</title>
+	<style type="text/css">
+
+		*{
+			margin:0;
+			padding:0;
+		}
+		body {
+			font-family: helvetica, san-serif;
+			background: black;
+		}
+
+		#wrapper {
+			background: #e9ebee;
+			width: 500px;
+			margin: 60px auto;
+			padding: 20px 30px;
+		}
+
+		h1 {
+		    font-size: 36px;
+		    margin-bottom: 5px;
+		}
+
+
+		input[type="text"], input[type="email"], input[type="password"] {
+		    margin-top: 10px;
+		    padding: 10px 10px;
+		    border-radius: 7px;
+    		border-style: groove;
+		}
+		
+		input[type="email"], input[type="password"] {
+    		width: 75.4%;
+		}
+
+		input[name="last-name"] {
+		    margin-left: 10px;
+		}
+
+		label {
+		    font-size: 12px;
+		    margin-left: 7px;
+		}
+
+		select {
+		    height: 30px;
+		    margin: 10px 0;
+		}
+
+		a {
+		    text-decoration: none;
+		    font-size: 11px;
+		    display: inline-block;
+		}
+
+		p {
+		    font-size: 19px;
+		    margin-bottom: 10px;
+		    margin-top: 10px
+		}
+
+		p > a {
+		    width: initial;
+		}
+
+		input[type="submit"] {
+		    width: 195px;
+		        border-radius: 7px;
+		        font-size: 20px;
+		        padding: 10px 20px;
+		        color: white;
+		        text-shadow: 0 1px 2px #3b5d2e;
+		        margin-top: 23px;
+		        background: linear-gradient(#67ae55, #578843);
+		        border-color: #3b6e22;
+		        border-style: solid;
+
+		}
+
+		.pull-left {
+			float: left;
+			
+		}
+
+		.birthday {
+			margin-top: -30px;
+		}
+
+		.why {
+		    margin-left: 10px;
+		    margin-top: -19px;
+		    line-height: 15px;
+		}
+
+		.clearfix:after {
+			visibility: hidden;
+			display: block;
+			font-size: 0;
+			content: " ";
+			clear: both;
+			height: 0;
+			}
+
+		.gender {
+		    margin: 10px 0;
+		}
+
+		h5 {
+		    font-weight: normal;
+		    font-size: 11px;
+		}
+
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<h1>Sign Up</h1>
+	<p>It's free and always will be.</p>
+	<form>
+		<input type="text" name="first-name" placeholder="First Name">
+		<input type="text" name="last-name" placeholder="Last Name"><br>
+		<input type="email" name="email" placeholder="Mobile number or email address"><br>
+		<input type="email" name="re-email" placeholder="Re-enter mobile number or email address"><br>
+		<input type="password" name="password" placeholder="New password"><br>
+		<p>Birthday</p><br>
+		<section id="birthday" class="clearfix">
+		<div class="pull-left birthday">
+		<select name="month">
+			<option value="month">Month</option>
+			<option value="jan">Jan</option>
+			<option value="feb">Feb</option>
+			<option value="mar">Mar</option>
+			<option value="apr">Apr</option>
+			<option value="may">May</option>
+			<option value="jun">Jun</option>
+			<option value="jul">Jul</option>
+			<option value="aug">Aug</option>
+			<option value="sep">Sept</option>
+			<option value="oct">Oct</option>
+			<option value="nov">Nov</option>
+			<option value="dec">Dec</option>
+		</select>
+		</div>
+		<div class="pull-left birthday">
+		<select name="day">
+			<option value="day">Day</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>
+		</select>
+		</div>
+		<div class="pull-left birthday">
+		<select name="year">
+			<option value="year">Year</option>
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+			<option value="2014">2014</option>
+			<option value="2013">2013</option>
+			<option value="2012">2012</option>
+			<option value="2011">2011</option>
+			<option value="2010">2010</option>
+			<option value="2009">2009</option>
+			<option value="2008">2008</option>
+			<option value="2007">2007</option>
+		</select>
+		</div>
+				<div class="pull-left why"><a href="#">Why do I need to provide my <br>birthday?</a></div>
+		</section>
+		<!-- <input type="radio" name="gender"> -->
+		<div class="gender">
+		<input type="radio" name="gender" value="female" name="gender"><label for="gender">Female</label></option>
+		<input type="radio" name="gender" value="male" name="gender"><label for="gender">Male</label></option>
+		</div>
+		<h5>By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have <br>read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.</h5>
+		<input type="submit" name="submit" value="Sign Up">
+	</form>
+	
+</div>
+</body>
+</html>

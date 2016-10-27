@@ -716,3 +716,7 @@
 .copyright > p {
     font-family: m300;
 }
+
+a:active#to-top {
+	transition: ease-in 2s;
+}

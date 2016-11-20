@@ -1,50 +1,53 @@
 body {
-	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
-	font-weight: 700;
-	font-size: 42px;
+    font-weight: 700;
+    font-size: 42px;
 }
 
 h2 {
-	font-weight: 700;
-	font-size: 40px;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 h3 {
-	font-weight: 700;
-	font-size: 24px;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 h4 {
-	font-weight: 600;
-	font-size: 16px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 p {
-	font-weight: 400;
-	font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
 }
+
 
 /*****************************************
     Navbar Section
 *****************************************/
+
 #navbar {
-	background: #87509c;
-	border-radius: initial;
-	border-color: #87509c;
-	padding:40px 0;
-	margin:0;
+    background: #87509c;
+    border-radius: initial;
+    border-color: #87509c;
+    padding: 40px 0;
+    margin: 0;
 }
 
-#navbar .navbar-inverse, #navbar .navbar-collapse {
-	border-color: #87509c;
+#navbar .navbar-inverse,
+#navbar .navbar-collapse {
+    border-color: #87509c;
 }
 
 #navbar .navbar-brand {
-	padding:0;
-	margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 #navbar ul li a {
@@ -56,25 +59,27 @@ p {
     margin-left: 5px;
 }
 
-#navbar ul>li.active>a , #navbar ul>li>a:hover  {
-	background: #643a79;
+#navbar ul>li.active>a,
+#navbar ul>li>a:hover {
+    background: #643a79;
 }
+
 
 /*****************************************
     Header Section
 *****************************************/
 
 #header .jumbotron {
-	margin:0;
-	background: #87509c;
-	padding: 50px 0 100px;
+    margin: 0;
+    background: #87509c;
+    padding: 50px 0 100px;
 }
 
 #header .jumbotron h1 {
-	font-weight: 700;
-	font-size: 42px;
-	color:#fff;
-	margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 50px;
 }
 
 #header .jumbotron button {
@@ -86,90 +91,96 @@ p {
     border-bottom: 5px solid #c86a40;
 }
 
+
 /*****************************************
     Service Section
 *****************************************/
+
 #services {
-	padding:100px 0;
-	background: #17c2a4;
-	color:#fff;
+    padding: 100px 0;
+    background: #17c2a4;
+    color: #fff;
 }
+
 #services h2 {
-	font-weight: 700;
-	font-size: 40px;
-	letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 #services h3 {
-	font-weight: 700;
-	font-size: 24px;
-	margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #services h4 {
-	font-weight: 400;
-	font-size: 16px;
-	margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 80px;
 }
 
 #services p {
-	font-weight: 300;
-	font-size: 16px;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 #services hr {
     color: #14a58c;
     width: 87px;
     border: 4px solid #14a58c;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #services img {
-	max-height:200px;
-	padding:40px 0;
+    max-height: 200px;
+    padding: 40px 0;
 }
+
 
 /*****************************************
     Team Section
 *****************************************/
+
 #team {
-	padding:100px 0;
-	background: #e7f1f8;
-	color:#3c4761;
+    padding: 100px 0;
+    background: #e7f1f8;
+    color: #3c4761;
 }
+
 #team h2 {
-	font-weight: 700;
-	font-size: 40px;
-	letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 #team h3 {
-	font-weight: 700;
-	font-size: 24px;
-	margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #team h4 {
-	font-weight: 400;
-	font-size: 16px;
-	margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 80px;
 }
 
 #team p.position {
-	font-weight: 400;
-	font-size: 16px;
-	color: #30bae7;
+    font-weight: 400;
+    font-size: 16px;
+    color: #30bae7;
 }
 
 #team p.description {
-	font-weight: 300;
+    font-weight: 300;
 }
 
 #team hr {
     color: #c8d9e5;
     width: 87px;
     border: 4px solid #c8d9e5;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #team img {
@@ -177,90 +188,89 @@ p {
     width: 200px;
 }
 
-#team .social a{
-	
+#team .social a {
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    padding:0 10px;
-    margin:20px 5px 0;
+    padding: 0 10px;
+    margin: 20px 5px 0;
     font-size: 18px;
     background: #bdd1df;
     border-radius: 50%;
-    width:30px;
+    width: 30px;
     height: 30px;
     vertical-align: top;
 }
 
-#team .social a:hover{
-	color: #3c4761;
-	background: #fff;
+#team .social a:hover {
+    color: #3c4761;
+    background: #fff;
 }
 
-
 #team a .fa.fa-facebook {
-	padding-top: 7px;
+    padding-top: 7px;
 }
 
 #team a .fa.fa-twitter {
-	padding-top: 7px;
-	margin-left: -3px;
-
+    padding-top: 7px;
+    margin-left: -3px;
 }
 
 #team a .fa.fa-instagram {
-	padding-top: 7px;
-	margin-left: -3px;
+    padding-top: 7px;
+    margin-left: -3px;
 }
 
 #team a .fa.fa-envelope {
-	padding-top: 6px;
-	margin-left: -4px;
-
+    padding-top: 6px;
+    margin-left: -4px;
 }
+
 
 /*****************************************
     Skill Section
 *****************************************/
+
 #skills {
-	padding:100px 0;
-	background: #fff;
-	color:#3c4761;
+    padding: 100px 0;
+    background: #fff;
+    color: #3c4761;
 }
+
 #skills h2 {
-	font-weight: 700;
-	font-size: 40px;
-	letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 #skills h3 {
-	font-weight: 700;
-	font-size: 24px;
-	margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #skills h4 {
-	font-weight: 400;
-	font-size: 16px;
-	margin-bottom: 80px;
-	line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 80px;
+    line-height: 24px;
 }
 
 #skills hr {
     color: #c8d9e5;
     width: 87px;
     border: 4px solid #c8d9e5;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #skills .c100 {
-	background: #dfe8ed;
-	float: none;
-	margin: 0 auto;
+    background: #dfe8ed;
+    float: none;
+    margin: 0 auto;
 }
 
 #skills .c100:after {
-	background: #fff;
+    background: #fff;
 }
 
 #skills .c100 > span {
@@ -270,270 +280,297 @@ p {
     line-height: 280%;
 }
 
-#skills .first .c100 .bar, #skills .first .c100 .fill {
-	    border: 0.08em solid #30bae7;
+#skills .first .c100 .bar,
+#skills .first .c100 .fill {
+    border: 0.08em solid #30bae7;
 }
 
-#skills .second .c100 .bar, #skills .second .c100 .fill {
-	    border: 0.08em solid #d74680;
+#skills .second .c100 .bar,
+#skills .second .c100 .fill {
+    border: 0.08em solid #d74680;
 }
 
-#skills .third .c100 .bar, #skills .third .c100 .fill {
-	    border: 0.08em solid #15c7a8;
+#skills .third .c100 .bar,
+#skills .third .c100 .fill {
+    border: 0.08em solid #15c7a8;
 }
 
-#skills .fourth .c100 .bar, #skills .fourth .c100 .fill {
-	    border: 0.08em solid #eb7d4b;
+#skills .fourth .c100 .bar,
+#skills .fourth .c100 .fill {
+    border: 0.08em solid #eb7d4b;
 }
-
-
 
 
 /*****************************************
     Portfolio Section
 *****************************************/
+
 #portfolio {
-	padding:100px 0;
-	background: #ffdd99;
-	color:#3393939;
+    padding: 100px 0;
+    background: #ffdd99;
+    color: #3393939;
 }
+
 #portfolio h2 {
-	font-weight: 700;
-	font-size: 40px;
-	letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 #portfolio h3 {
-	font-weight: 700;
-	font-size: 24px;
-	margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #portfolio h4 {
-	font-weight: 400;
-	font-size: 16px;
-	margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
-
 
 #portfolio .btn-default {
-	background: #ebc985;
-	color: #393939;
-	border: none;
-	width: 80px;
-	margin:0 4px 60px;
-	font-weight: 400;
-	font-size: 18px;
+    background: #ebc985;
+    color: #393939;
+    border: none;
+    width: 80px;
+    margin: 0 4px 60px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-#portfolio .btn-default.active, #portfolio .btn-default:hover {
-	background: #fff;
-	box-shadow: none;
+#portfolio .btn-default.active,
+#portfolio .btn-default:hover {
+    background: #fff;
+    box-shadow: none;
 }
+
 #portfolio hr {
     color: #c8d9e5;
     width: 87px;
     border: 4px solid #c8d9e5;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #porfolio col-md-6 {
-	padding:20px;
+    padding: 20px;
 }
 
 #portfolio img {
-	width: 480px;
-	height: auto;
-	margin: 40px 0 20px;
+    width: 480px;
+    height: auto;
+    margin: 40px 0 20px;
 }
 
 #portfolio .btn-default.more {
-	width: auto;
-	padding:25px 50px;
-	border: none;
-	margin: 40px auto 0;
-	color: #fff;
-	background: #17c2a4;
-	border-bottom: 4px solid #14a58c;
-	font-weight: 600;
-	font-size: 18px;
+    width: auto;
+    padding: 25px 50px;
+    border: none;
+    margin: 40px auto 0;
+    color: #fff;
+    background: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+    font-weight: 600;
+    font-size: 18px;
 }
+
 
 /*****************************************
     Testimonial Section
 *****************************************/
+
 #testimonial {
-	padding:100px 0;
-	background: #d74680;
-	color: #fff;
+    padding: 100px 0;
+    background: #d74680;
+    color: #fff;
 }
+
 #testimonial h2 {
-	font-weight: 700;
-	font-size: 40px;
-	letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 #testimonial h3 {
-	font-weight: 700;
-	font-size: 24px;
-	margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #testimonial h4 {
-	font-weight: 400;
-	font-size: 16px;
-	margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
-
 
 #testimonial hr {
     color: #b73c6d;
     width: 87px;
     border: 4px solid #b73c6d;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
-#testimonial blockquote:before, #testimonial blockquote:after {
-	content: "\"";
+#testimonial blockquote:before,
+#testimonial blockquote:after {
+    content: "\"";
 }
 
 #testimonial blockquote {
-	border-left: none;
-	padding-left:0;
-	padding-right: 30px; 
-	font-style: italic;
-	margin-bottom: 15px;
+    border-left: none;
+    padding-left: 0;
+    padding-right: 30px;
+    font-style: italic;
+    margin-bottom: 15px;
 }
 
 #testimonial .client-img {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 #testimonial .client-testimoni h3 {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 #testimonial .client-testimoni h4 {
-	font-size: 18px;
-	margin-top: 0;
-	color: #ffdd99;
+    font-size: 18px;
+    margin-top: 0;
+    color: #ffdd99;
 }
+
 
 /*****************************************
     Contact Section
 *****************************************/
+
 #contact {
-	padding:100px 0;
-	background: #3c5499;
-	color: #fff;
+    padding: 100px 0;
+    background: #3c5499;
+    color: #fff;
 }
 
 #contact .container {
-	max-width: 800px;
+    max-width: 800px;
 }
+
 #contact h2 {
-	font-weight: 700;
-	font-size: 40px;
-	letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 #contact h3 {
-	font-weight: 700;
-	font-size: 24px;
-	margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #contact h4 {
-	font-weight: 400;
-	font-size: 16px;
-	margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
-
 
 #contact hr {
     color: #273a71;
     width: 87px;
     border: 4px solid #273a71;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #contact .form-control {
-	background: #273a71;
-	border:initial;
-	height: 55px;
-	padding: 25px;
-	font-size: 18px;
-	color: #fff;
-	margin-bottom: 25px;
+    background: #273a71;
+    border: initial;
+    height: 55px;
+    padding: 25px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
 }
 
-#contact ::-webkit-input-placeholder {
-   color: #dfe1e7;
-   font-size: 18px;
+#contact::-webkit-input-placeholder {
+    color: #dfe1e7;
+    font-size: 18px;
 }
+
 
 /* #contact ::-webkit-input-placeholder:after {
   content: '*';
   color: #f00;
 } */
 
-#contact :-moz-placeholder { /* Firefox 18- */
-   color: #dfe1e7; 
-   font-size: 18px; 
+#contact:-moz-placeholder {
+    /* Firefox 18- */
+    color: #dfe1e7;
+    font-size: 18px;
 }
 
-#contact ::-moz-placeholder {  /* Firefox 19+ */
-   color: #dfe1e7; 
-   font-size: 18px; 
+#contact::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #dfe1e7;
+    font-size: 18px;
 }
 
-#contact :-ms-input-placeholder {  
-   color: #dfe1e7;  
-   font-size: 18px;
+#contact:-ms-input-placeholder {
+    color: #dfe1e7;
+    font-size: 18px;
 }
-
 
 #contact button {
-	color: #fff;
-	background: #30bae7;
+    color: #fff;
+    background: #30bae7;
     padding: 25px 80px;
     font-size: 18px;
     font-weight: 600;
     border: none;
     border-bottom: 5px solid #299ec5;
-	margin-top: 50px;
+    margin-top: 50px;
 }
+
 
 /*****************************************
     Footer Section
 *****************************************/
+
 #footer {
-	background: #344b8e;
-	color: #fff;
+    background: #344b8e;
+    color: #fff;
 }
 
 #footer .social-nav {
-	background: #344b8e;
-	display: inline-block;
-	border:none;
-	padding: 20px 0;
-	border-radius: initial;
-	margin:0;
+    background: #344b8e;
+    display: inline-block;
+    border: none;
+    padding: 20px 0;
+    border-radius: initial;
+    margin: 0;
 }
 
 #footer .social-nav li {
-	display: inline-block;
-	text-align: center;
-	padding:5px 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px;
 }
 
-#footer .social-nav a{
-		color: #fff;
-		font-weight: 600;
-		font-size: 24px;
-		text-decoration: none;
+#footer .social-nav a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
 }
 
-#footer .social-nav a:hover, #footer .social-nav .active  {
- color: #30bae7;
+#footer .social-nav a:hover,
+#footer .social-nav .active {
+    color: #30bae7;
+}
+
+
+/*****************************************
+    Media Query Section
+*****************************************/
+
+@media screen and (max-width:400px) {
+    #portfolio .btn-default {
+        width: 62px;
+        font-size: 16px;
+    }
 }

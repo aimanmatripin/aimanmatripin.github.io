@@ -270,6 +270,22 @@ p {
     line-height: 280%;
 }
 
+#skills .first .c100 .bar, #skills .first .c100 .fill {
+	    border: 0.08em solid #30bae7;
+}
+
+#skills .second .c100 .bar, #skills .second .c100 .fill {
+	    border: 0.08em solid #d74680;
+}
+
+#skills .third .c100 .bar, #skills .third .c100 .fill {
+	    border: 0.08em solid #15c7a8;
+}
+
+#skills .fourth .c100 .bar, #skills .fourth .c100 .fill {
+	    border: 0.08em solid #eb7d4b;
+}
+
 
 
 

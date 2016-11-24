@@ -1,1 +1,46 @@
-index
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Javascript</title>
+</head>
+<style>
+	table {
+		width: 90%;
+		border: 3px dashed #666;
+		text-align: center;
+		margin:0 auto;
+	}
+
+	th, td {
+		border : 2px double #222;
+		padding: 5px 15px;
+		font-size: 1.6em;
+		font-family: sans-serif;
+		height: 2.4em;
+	}
+
+	tr {
+		background: blue;
+	}
+	thead > tr {
+		background: #c9c9c9;
+	}
+
+</style>
+<body>
+    <script>
+    var a = 2;
+    var b = 3;
+    var c = 4;
+    var d = 5;
+
+    var e = a + 2 ;
+    var f = b + 2 ;
+    var g = c + 2 ;
+    var h = d + 2 ;
+    document.write("<table><thead><tr><th>" + "A" + "</th><th>" + "B" + "</th><th>" + "C" + "</th><th>" + "D" + "</th></tr></thead><tr><td> "+(a+2)+"</td><td>"+(b+2)+"</td><td>"+(c+2)+"</td><td>"+(d+2)+"</td></tr><tr><td>"+(a*2)+"</td><td>"+(b*2)+"</td><td>"+(c*2)+"</td><td>"+(d*2)+"</td></tr></table>");
+    </script>
+</body>
+
+</html>

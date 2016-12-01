@@ -436,4 +436,8 @@ body {
 	color: #89da59
 }
 
+#footer .glyphicon {
+    top: 3px;
+}
+
 

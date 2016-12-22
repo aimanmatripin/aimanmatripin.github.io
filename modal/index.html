@@ -1,1 +1,56 @@
-sdfsdfsvf s sdfsdf
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<title>Popup Lightbox</title>
+	<link rel="stylesheet" href="dist/jquery.niftymodals.css"> 
+			<link rel="stylesheet" type="text/css" href="lib/demo.css" />
+			<script src="//code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="dist/jquery.niftymodals.js"></script>
+
+
+
+<script type="text/javascript">
+
+$( window ).load(function() {
+	$('#modal-12').niftyModal();
+ });
+
+$(document).ready(function() {
+
+
+$('#modal-12').niftyModal();
+		
+});
+	</script>
+
+<script>
+// this is important for IEs
+var polyfilter_scriptpath = 'lib/js/';
+</script>
+
+<script src="lib/js/cssParser.js"></script>
+<script src="lib/js/css-filters-polyfill.js"></script>
+
+</head>
+<body>
+
+<div class="md-container md-effect-12" id="modal-12">
+  <div class="md-content">
+    <h3>Modal Dialog</h3>
+    <div>
+      Modal Content Here
+      <button class="md-close">Close me!</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+	<button class="md-trigger" data-modal="modal-12">Fade in &amp; Scale</button>
+</div>
+
+
+<div class="md-overlay"></div><!-- the overlay element -->
+
+
+</body>
+</html>
